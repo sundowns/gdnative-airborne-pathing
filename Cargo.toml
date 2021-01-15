@@ -1,0 +1,11 @@
+[package]
+name = "gdnative-airborne-pathing"
+version = "0.1.0"
+authors = ["Tom Smallridge <tom@smallridge.com.au>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+gdnative = "0.9"
